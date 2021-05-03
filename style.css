@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+canvas {
+  margin: auto;
+}
+
+.site-logo {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 24px;
+  line-height: 100px;
+  text-transform: uppercase;
+}
+
+.navbar {
+  position: fixed;
+  padding: 0 40px;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  line-height: 100px;
+}
+
+.site-info {
+  position: absolute;
+}
+
+.site-menu {
+  width: 50%;
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.menu-item {
+  margin-left: 40px;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 20%;
+  padding: 40px;
+  text-transform: uppercase;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 40px;
+  z-index: 2;
+}
+
+.header-left span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+  margin: 40px 0;
+}
+
+.link a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+
+@media (max-width: 900px) {
+	.container-items {
+		height: 100px;
+    }
+    
+    .site-menu {
+        width: 30%;
+        display: flex;
+        position: absolute;
+        bottom: -0%;
+       font-size: 13px;
+      }
+      
+
+}
